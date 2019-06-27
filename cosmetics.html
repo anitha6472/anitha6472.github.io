@@ -1,0 +1,582 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+            <link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    </head>
+    <body> <div class="row" style="background-color:rgb(143, 38, 52);color: rgb(8, 8, 8);">
+            <div class="col-8 col-md-6 col-sm-8"><ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active"  href="#home" role="tab" aria-controls="home" aria-selected="true"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item" style="color:rgb(81, 196, 77);">
+                      <a class="nav-link" href="#Herbal" role="tab" aria-controls="profile" aria-selected="false"><b>Herbal</b></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link"  href="#cosmetic" role="tab" aria-controls="contact" aria-selected="false"><b>Cosmetic's</b></a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"></div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"></div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"></div>
+                  </div>
+            </div>
+            <div class="col-4 col-sm-4 col-md-6" style="text-align: right;padding-right:30px; padding-top:5px;"><b> Your Order</b><i class="fas fa-shopping-cart fa-2x"></i></div>
+            </div>
+                  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                        <div class="row" style="background-color:rgb(236, 233, 230);">
+                                            <div class="col-8 col-sm-8 col-md-9 ">
+                                      <img src="image/cos-2.jpg" height="500px" class="d-block w-100" alt="..."></div>
+                                      <div class="col-4 col-sm-4 col-md-3"><div class="d-block" height="500px" style="font-family:Allura;color:rgb(250, 11, 51); font-size: 40px" >“Beauty is how you feel inside, and it reflects in your eyes. It is not something physical.” 
+                                  <div style="background-color:rgba(188, 18, 230, 0.253);color:seashell;font-family:Almendra SC">" 50% "off only on wednesday</div> <div style="font-family:Asar ;color:navy;">Buy online.</div>
+                                    </div></div>
+                                  </div>  
+                                  </div>
+                          <div class="carousel-item">
+                              <div class="row"style="background-color:rgb(236, 233, 230);">
+                                    <div class="col-4 col-sm-4 col-md-3"><div class="d-block" height="500px" style="font-family:Allura;color:rgb(247, 55, 7); font-size: 40px" >“Beauty is how you feel inside, and it reflects in your eyes. It is not something physical.” 
+                                            <div style="background-color:rgba(18, 228, 243, 0.253);color:rgb(10, 10, 10);font-family:Almendra SC">" 50% "off only on wednesday</div> <div style="font-family:Asar ;color:navy;">Buy online.</div>
+                                              </div></div>                                
+                                              <div class="col-8 col-sm-8 col-md-9">
+                            <img src="image/cos-3.jpg" height="500px" class="d-block w-100" alt="..."></div>
+                            
+                        </div>  
+                        </div>
+                        <div class="carousel-item">
+                                <div class="row" style="background-color:rgb(26, 25, 25);">
+                                    <div class="col-8 col-sm-8 col-md-9">
+                              <img src="image/cos-4.jpg" height="500px" class="d-block w-100" alt="..."></div>
+                              <div class="col-4 col-sm-4 col-md-3"><div class="d-block" height="500px" style="font-family:Allura;color:rgba(212, 172, 172, 0.418); font-size: 40px" >“Beauty is how you feel inside, and it reflects in your eyes. It is not something physical.” 
+                                    <div style="background-color:rgba(238, 238, 222, 0.788);color:rgb(17, 17, 16);font-family:Almendra SC">" 50% "off only on wednesday</div> <div style="font-family:Asar ;color:rgb(90, 90, 97);">Buy online.</div>
+                                      </div></div>                          </div>  
+                          </div>
+                        </div>
+                      </div>
+                      <!--moving img-->
+                      <a href="#home"><div style="color:rgb(68, 64, 64);position:  fixed; top: 550px; right:10px;z-index:1;">
+                          <i class="fas fa-space-shuttle fa-2x fa-spin"></i> home
+                  </div></a>
+                  <a href="#offer"><div style="color:rgb(233, 12, 12);position:  fixed; top: 350px; left:10px;z-index:1;">
+                      <div style="background-color: khaki;opacity: 0.6; border-radius: 300px;" > <div style="font-size:30px;padding: 30px;">Today's offer<br>50% off</div></div>
+              </div></a>
+
+
+                      <div style="background-color:rgb(99, 158, 5);color: rgb(21, 99, 9); font-size: 50px;text-align:center;font-family:Allura;">Herbal products</div>
+                <div class="row" id="Herbal">
+                    <div class="col-6 col-md-8 col-sm-6"> <img src="image/cos-5.jpg"width="100%"></div>
+                   <div class="col-6 col-sm-6 col-md-4"><img src="image/cos-6.jpg" width="430px" height="350px"></div>
+                </div>
+                <div class="row" style=" background-color: rgb(236, 211, 211);padding-top: 20px;">
+                    <div class="col-md-4 col-12 col-sm-12" style="padding-left:50px;">
+                            <div class="row">
+                                    <div class="col-12">
+                                            <div class="card shadow-lg zoom">
+                                                    <div class="card-header">
+                                                      <div class="row font-weight-bold"><div class="col-8" style="color:darkgreen;font-size: 20px;font-family:Almendra SC;">Face wash</div><div class="col-4" style="color:lightcoral;">110 $</div>
+                                                    </div></div>
+                                                    
+                                                    <div class="card-body">
+                                                        <div style="font-size:15px;padding: 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</div>
+                                                    </div>
+                                                  </div>
+                                    </div>
+                                </div><br>
+                                <div class="row">
+                                        <div class="col-12">
+                                                <div class="card shadow-lg zoom">
+                                                        <div class="card-header">
+                                                                <div class="row font-weight-bold"><div class="col-8" style="color:darkgreen;font-size: 20px;font-family:Almendra SC;">Face pack</div><div class="col-4" style="color:lightcoral;">110 $</div>
+                                                              </div></div>
+                                                        
+                                                        <div class="card-body">
+                                                            <div style="font-size:15px;padding: 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</div>
+                                                        </div>
+                                                      </div>
+                                        </div>
+                                    </div><br>
+                                    <div class="row">
+                                            <div class="col-12">
+                                                    <div class="card shadow-lg zoom">
+                                                            <div class="card-header">
+                                                                    <div class="row font-weight-bold"><div class="col-8" style="color:darkgreen;font-size: 20px;font-family:Almendra SC;">Scrub</div><div class="col-4" style="color:lightcoral;">110 $</div>
+                                                                  </div></div>
+                                                            
+                                                            <div class="card-body">
+                                                                <div style="font-size:15px;padding: 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</div>
+                                                            </div>
+                                                          </div>
+                                            </div>
+                                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 col-sm-12">
+                            
+                        <div class="head2-section">
+                            <div class="top-heading ">
+                              <h1 class="nstyle" style="opacity:0.9;text-align: center"><marquee behavior="scroll" direction="up"> <div>H</div><div>U</div><div>R</div><div>B</div><div>A</div><div>L</div></marquee></h1>
+                            </div>
+                            
+                          </div>
+
+                        </div>
+                    <div class="col-md-4 col-12 col-sm-12" style="padding-right:50px;">
+                            <div class="row">
+                                    <div class="col-12">
+                                            <div class="card shadow-lg zoom">
+                                                    <div class="card-header">
+                                                            <div class="row font-weight-bold"><div class="col-8" style="color:darkgreen;font-size: 20px;font-family:Almendra SC;">Hair oil</div><div class="col-4" style="color:lightcoral;">110 $</div>
+                                                          </div></div>
+                                                    
+                                                    <div class="card-body">
+                                                        <div style="font-size:15px;padding: 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</div>
+                                                    </div>
+                                                  </div>
+                                    </div>
+                                </div><br>
+                                <div class="row">
+                                        <div class="col-12">
+                                                <div class="card shadow-lg zoom">
+                                                        <div class="card-header">
+                                                                <div class="row font-weight-bold"><div class="col-8" style="color:darkgreen;font-size: 20px;font-family:Almendra SC;">Shampoo</div><div class="col-4" style="color:lightcoral;">110 $</div>
+                                                              </div></div>
+                                                        
+                                                        <div class="card-body">
+                                                            <div style="font-size:15px;padding: 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</div>
+                                                        </div>
+                                                      </div>
+                                        </div>
+                                    </div></br>
+                                    <div class="row">
+                                            <div class="col-12">
+                                                    <div class="card shadow-lg zoom">
+                                                            <div class="card-header">
+                                                                    <div class="row font-weight-bold"><div class="col-8" style="color:darkgreen;font-size: 20px;font-family:Almendra SC;">Lip care</div><div class="col-4" style="color:lightcoral;">110 $</div>
+                                                                  </div></div>
+                                                            
+                                                            <div class="card-body">
+                                                                <div style="font-size:15px;padding: 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</div>
+                                                            </div>
+                                                          </div>
+                                            </div>
+                                        </div><br><br><br>
+                    </div>
+                 </div>
+                 <div class="row">
+                    <div class="col-12"><div class="head1-section">
+                        <div class="top-heading ">
+                          <h1 class="nstyle" style="opacity:0.9;">“Beauty</h1>
+                        </div>
+                        <div class="footer-heading" style="padding-top:100px;">
+                            <div class="row" >
+                                <div class="col-2">
+                                  <span class="nstyle"><b>C</b></span><span class="n1style">os</span><span class="nstyle">met</spam><span class="n1style">ic</span>
+                                </div>
+                                <div class="col-10 nstyle"><span><marquee>Special offer 50% off on MRP ...</marquee></span></div>
+                              </div>
+                        </div>
+                      </div></div>
+                  </div>
+                 
+<!--carousel start-->
+                <div class="row" id="offer">
+                    <div class="col-12">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active" style="background-color:bisque;">
+                                        <div class="" style="background-color:bisque;">
+                                            <div class="row" style="background-color:rgb(245, 182, 245); padding: 30px;text-align:center;">
+                                              <div class="col-2"></div>
+                                              <div class="col-2" style="text-align:center;">
+                                                <img src="image/cos-8.jpg" height="200px" width="250px" class="d-block w-100" data-toggle="modal" data-target="#exampleModal" alt="..."><h2 align="center">Lip care <br>50% off
+                                                </h2>
+                                                
+                                                    <!-- Button trigger modal -->
+                                                    <a type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal" >Click here
+     
+        
+                                                    </a>
+                                                      
+                                                      <!-- Modal -->
+                                                      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog " role="document">
+                                                          <div class="modal-content" style="background-color:rgb(252, 249, 252)">
+                                                            <div class="modal-header">
+                                                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                              </button>
+                                                            </div>
+                                                            <div class="modal-body"><div class="row" >
+                                                                <div class="8">
+                                                                <img src="image/cos-8.jpg" title="WOW!" width="300px" height="350px">
+                                                                </div><div class="4" ><h3 style="color:darkcyan;">Special offer </h3><b style="font-size: 35px;">Lip care</b> <br> <div class="fonts" >50% on MRP <br> Buy at 150$ only . </div> <b>MRP 300$ <br> limited stock</b><br><b class="fonts" id="cart"></b ></div>
+                                                            </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                   
+                                                                   
+                                                              <button type="Cart" onclick="commentfunction()" title="add to cart" class="btn btn-secondary">Add to cart</button>
+                                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                             
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+    
+                                                      <!-- end-->                                               
+                                          </div>
+                                              <div class="col-2">
+                                                    <img src="image/cos-9.jpg" height="200px" width="250px" class="d-block w-100" data-toggle="modal" data-target="#exampleModal2" alt="..."><h2 align="center">Lip stick <br>50% off
+                                                    </h2>
+                                                    
+                                                        <!-- Button trigger modal -->
+                                                        <a type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal2">Click here
+         
+            
+                                                        </a>
+                                                          
+                                                          <!-- Modal -->
+                                                          <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog " role="document">
+                                                              <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                  </button>
+                                                                </div>
+                                                                <div class="modal-body"><div class="row">
+                                                                    <div class="8">
+                                                                    <img src="image/cos-9.jpg" title="WOW!" width="300px" height="350px">
+                                                                  </div><div class="4" ><h3 style="color:darkcyan;">Special offer </h3><b style="font-size: 35px;">Lip care</b> <br> <div class="fonts" >50% on MRP <br> Buy at 150$ only . </div> <b>MRP 300$ <br> limited stock</b><br><b class="fonts" id="cart1"></b ></div>
+                                                                  </div>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                       
+                                                                  <button type="submit" onclick="commentfunction()"class="btn btn-secondary">Add to cart</button>
+                                                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                                 
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+        
+                                                          <!-- end-->                                               
+                                              </div>
+                                              <div class="col-2">
+                                                <img src="image/cos-11.jpg" height="200px" width="250px" class="d-block w-100" data-toggle="modal" data-target="#exampleModal3" alt="..."><h2 align="center">Eye kajal <br>50% off
+                                                </h2>
+                                                
+                                                    <!-- Button trigger modal -->
+                                                    <a type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal3">Click here
+     
+        
+                                                    </a>
+                                                      
+                                                      <!-- Modal -->
+                                                      <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog " role="document">
+                                                          <div class="modal-content">
+                                                            <div class="modal-header">
+                                                              <h5 class="modal-title" id="exampleModalLabel">Special offer 50% off...</h5>
+                                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                              </button>
+                                                            </div>
+                                                            <div class="modal-body"><div class="row">
+                                                                <div class="8">
+                                                                <img src="image/cos-11.jpg" title="WOW!" width="300px" height="350px">
+                                                              </div><div class="4" ><h3 style="color:darkcyan;">Special offer </h3><b style="font-size: 35px;">Lip care</b> <br> <div class="fonts" >50% on MRP <br> Buy at 150$ only . </div> <b>MRP 300$ <br> limited stock</b><br><b class="fonts" id="cart"></b ></div>
+                                                              </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                
+                                                              <button type="submit" onclick="commentfunction()" title="add to cart" class="btn btn-secondary"> Add to cart</button>
+                                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                             
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+    
+                                                      <!-- end-->                                               
+                                          </div>                                                    
+                                          <div class="col-2">
+                                            <img src="image/cos-10.jpg" height="200px" width="250px" class="d-block w-100" data-toggle="modal" data-target="#exampleModal4" alt="..."><h2 align="center">eye kajal <br>50% off
+                                            </h2>
+                                            
+                                                <!-- Button trigger modal -->
+                                                <a type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal4">Click here
+ 
+    
+                                                </a>
+                                                  
+                                                  <!-- Modal -->
+                                                  <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog " role="document">
+                                                      <div class="modal-content">
+                                                        <div class="modal-header">
+                                                          <h5 class="modal-title" id="exampleModalLabel">Special offer 50% off..</h5>
+                                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                          </button>
+                                                        </div>
+                                                        <div class="modal-body"><div class="row">
+                                                            <div class="8">
+                                                            <img src="image/cos-10.jpg" title="WOW!" width="300px" height="350px">
+                                                          </div><div class="4" ><h3 style="color:darkcyan;">Special offer </h3><b style="font-size: 35px;">Lip care</b> <br> <div class="fonts" >50% on MRP <br> Buy at 150$ only . </div> <b>MRP 300$ <br> limited stock</b><br><b class="fonts" id="cart"></b ></div>
+                                                          </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                               
+                                                              
+                                                          <button title="add to cart" type="submit" onclick="commentfunction()"class="btn btn-secondary">Add to cart</button>
+                                                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                         
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+
+                                                  <!-- end-->                                               
+                                      </div>
+                                  <div class="col-2"></div>
+                                          </div> </div>
+                                      </div>
+                                      <!--2nd Carousel list-->
+                                  <div class="carousel-item">
+                                      <div class="" style="background-color:bisque;">
+                                          <div class="row" style="background-color:rgb(245, 182, 245); padding: 30px;text-align: center;">
+                                            <div class="col-2"></div>
+                                            <div class="col-2">
+                                              <img src="image/cos-8.jpg" height="200px" width="250px" class="d-block w-100" data-toggle="modal" data-target="#exampleModal5" alt="..."><h2 align="center">Lip care <br>50% off
+                                              </h2>
+                                              
+                                                  <!-- Button trigger modal -->
+                                                  <a type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal5">Click here
+   
+      
+                                                  </a>
+                                                    
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                      <div class="modal-dialog " role="document">
+                                                        <div class="modal-content">
+                                                          <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalLabel">Special offer 50% off ..</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                              <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                          </div>
+                                                          <div class="modal-body"><div class="row">
+                                                              <div class="8">
+                                                              <img src="image/cos-8.jpg" title="WOW!" width="300px" height="350px">
+                                                            </div><div class="4" ><h3 style="color:darkcyan;">Special offer </h3><b style="font-size: 35px;">Lip care</b> <br> <div class="fonts" >50% on MRP <br> Buy at 150$ only . </div> <b>MRP 300$ <br> limited stock</b><br><b class="fonts" id="cart"></b ></div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="modal-footer">
+                                                            
+                                                            <button type="submit" onclick="commentfunction()"class="btn btn-secondary"> Add to cart </button>
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                           
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+  
+                                                    <!-- end-->                                               
+                                        </div>
+                                            <div class="col-2">
+                                                  <img src="image/cos-11.jpg" height="200px" width="250px" class="d-block w-100" data-toggle="modal" data-target="#exampleModal6 alt="..."><h2 align="center">Lip stick <br>50% off
+                                                  </h2>
+                                                  
+                                                      <!-- Button trigger modal -->
+                                                      <a type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal6">Click here
+       
+          
+                                                      </a>
+                                                        
+                                                        <!-- Modal -->
+                                                        <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                          <div class="modal-dialog " role="document">
+                                                            <div class="modal-content">
+                                                              <div class="modal-header">
+                                                                <h5 class="modal-title" id="exampleModalLabel">Special offer 50% off ..</h5>
+                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                  <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                              </div>
+                                                              <div class="modal-body"><div class="row">
+                                                                  <div class="8">
+                                                                  <img src="image/cos-11.jpg" title="WOW!" width="300px" height="350px">
+                                                                </div><div class="4" ><h3 style="color:darkcyan;">Special offer </h3><b style="font-size: 35px;">Lip care</b> <br> <div class="fonts" >50% on MRP <br> Buy at 150$ only . </div> <b>MRP 300$ <br> limited stock</b><br><b class="fonts" id="cart"></b ></div>
+                                                                </div>
+                                                              </div>
+                                                              <div class="modal-footer">
+                                                                    
+                                                                <button type="submit" onclick="commentfunction()"class="btn btn-secondary">Add to cart </button>
+                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                               
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+      
+                                                        <!-- end-->                                               
+                                            </div>
+                                            <div class="col-2">
+                                              <img src="image/cos-10.jpg" height="200px" width="250px" class="d-block w-100" data-toggle="modal" data-target="#exampleModal7" alt="..."><h2 align="center">eye kajal<br>50% off
+                                              </h2>
+                                              
+                                                  <!-- Button trigger modal -->
+                                                  <a type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal7">Click here
+   
+      
+                                                  </a>
+                                                    
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                      <div class="modal-dialog " role="document">
+                                                        <div class="modal-content">
+                                                          <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalLabel">Special off 50% off ..</h5>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                              <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                          </div>
+                                                          <div class="modal-body"><div class="row">
+                                                              <div class="8">
+                                                              <img src="image/cos-10.jpg" title="WOW!" width="300px" height="350px">
+                                                            </div><div class="4" ><h3 style="color:darkcyan;">Special offer </h3><b style="font-size: 35px;">Lip care</b> <br> <div class="fonts" >50% on MRP <br> Buy at 150$ only . </div> <b>MRP 300$ <br> limited stock</b><br><b class="fonts" id="cart"></b ></div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="modal-footer">
+                                                                 
+                                                                 
+                                                            <button type="submit" onclick="commentfunction()"class="btn btn-secondary">Add to cart</button>
+                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                           
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+  
+                                                    <!-- end-->                                               
+                                        </div>                                                    
+                                        <div class="col-2">
+                                          <img src="image/cos-9.jpg" height="200px" width="250px" class="d-block w-100" data-toggle="modal" data-target="#exampleModal8" alt="..."><h2 align="center">Lip care <br>50% off
+                                          </h2>
+                                          
+                                              <!-- Button trigger modal -->
+                                              <a type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal8">Click here
+
+  
+                                              </a>
+                                                
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                  <div class="modal-dialog " role="document">
+                                                    <div class="modal-content">
+                                                      <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Special offer 50% off..</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                          <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                      </div>
+                                                      <div class="modal-body"><div class="row">
+                                                          <div class="8">
+                                                          <img src="image/cos-9.jpg" title="WOW!" width="300px" height="350px">
+                                                        </div><div class="4" ><h3 style="color:darkcyan;">Special offer </h3><b style="font-size: 35px;">Lip care</b> <br> <div class="fonts" >50% on MRP <br> Buy at 150$ only . </div> <b>MRP 300$ <br> limited stock</b><br><b class="fonts" id="cart"></b ></div>
+                                                        </div>
+                                                      </div>
+                                                      <div class="modal-footer">
+                                                             
+                                                        
+                                                        <button type="submit" onclick="commentfunction()"class="btn btn-secondary">Add to cart </button>
+                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                       
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+
+                                                <!-- end-->                                               
+                                    </div>
+                                    <div class="col-2"></div>
+                                        </div> </div>   
+                                      </div>
+                                      <!-- end of 2nd carousel-->
+                                      
+                                      
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Next</span>
+                                    </a>
+                                  </div>
+                    </div>
+                </div>
+<!--carousel end--><br><br>
+     <div id="cosmetic" style="font-family:Allura;font-size: 50px; text-align: center; color: crimson;background-color: rgb(245, 201, 210)"><b>Special Discont</b>  </div>
+      <div class="row"  style="padding:40px;">
+          <div class="col-3 ">
+              <div class="click1" style="text-align: center;">
+                  <img src="image/cos-10.jpg" width="250px" height="250px" class="img-circle1"><br>
+                  <div class="n1style">Special offer MRP 540/-<br> Book Now</div>
+              </div>
+          </div>
+      <div class="col-3 ">
+          <div class="click1" style="text-align: center;">
+              <img src="image/cos-11.jpg" width="250px" height="250px" class="img-circle1"><br>
+              <div class="n1style">Special offer MRP 540/-<br> Book Now</div>
+          </div>
+      </div>
+      <div class="col-3 ">
+          <div class="click1" style="text-align: center;">
+              <img src="image/cos-8.jpg" width="250px" height="250px" class="img-circle1"><br>
+              <div class="n1style">Special offer MRP 540/-<br> Book Now</div>
+          </div>
+      </div>
+      <div class="col-3 ">
+          <div class="click1" style="text-align: center;">
+              <img src="image/cos-9.jpg" width="250px" height="250px" class="img-circle1"><br>
+              <div class="n1style">Special offer MRP 540/-<br> Book Now</div>
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12"><div class="head-section">
+          <div class="top-heading">
+            <h1 style="color:black;opacity:0.9;background-color:rgb(180, 176, 171);">Customer care : <br>Ph: 444 44 444 <br> Service@cosmetic</h1>
+          </div>
+        </div></div>
+    </div></div>
+    
+        
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+          <script>
+          function commentfunction()
+          {
+            document.getElementById("cart").innerHTML=" Added to cart"
+          }
+          
+          </script> 
+          
+          
+          </body>
+           </html>
